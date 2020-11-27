@@ -84,14 +84,19 @@ body{
     background-color: gainsboro;
 }
 
-/*
-    Camilo
-    Modificación de color
-*/
+
 .section-3{
     height: 500px;
+    
+}
+/*
+    Camilo
+    Identificador team
+*/
+#team{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(88,70,64,1) 49%, rgba(67,67,102,1) 77%);
+    
 }
 
 .footer{
@@ -129,9 +134,10 @@ body{
     display: inline-block;
     margin: 5px 6px 6px;
     text-align: center;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(255,255,255,1) 1%, rgba(151,151,182,1) 92%);
 }
+
 
 .service-content{
     padding: 0.5em 0;
