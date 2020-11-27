@@ -1,6 +1,7 @@
 body{
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    min-width: 1200px;
 }
 
 .container{
@@ -83,9 +84,14 @@ body{
     background-color: gainsboro;
 }
 
+/*
+    Camilo
+    Modificación de color
+*/
 .section-3{
     height: 500px;
-    background-color: coral;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 5%, rgba(88,70,64,1) 49%, rgba(67,67,102,1) 77%);
 }
 
 .footer{
@@ -113,13 +119,18 @@ body{
     margin-top: 5px;
     text-align: center;
 }
+/*
+    Camilo
+    Modificación para ajustar anchos y cambiar colores
+*/
 .col-5{
-    width: 19%;
+    width: 32%;
     height: 470px;
     display: inline-block;
-    margin: 5px 4px 0;
+    margin: 5px 6px 6px;
     text-align: center;
-    background-color: rgb(255, 177, 148);
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
 
 .service-content{
