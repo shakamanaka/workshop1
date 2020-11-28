@@ -21,7 +21,7 @@ body{
 
 .container-menu{
     height: 100px;
-    background-color: antiquewhite;
+    background-color: rgb(223, 219, 213);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -31,13 +31,14 @@ body{
 .container-logo{
     width: 100%;
     height: inherit;
-    background-color: azure;
+    background-color: rgb(139, 148, 148);
     text-align: center;
 }
 
 .site-title{
     margin: 0;
-    padding: 0.36em 0;
+    padding: 0.9em 0;
+    color: white;  
 }
 
 .container-imagen{
@@ -47,7 +48,7 @@ body{
 }
 
 .nav-list{
-    padding: 0.25em 0;
+    padding: 1.5em 0;
     list-style-type: none;
     text-align: end;
     width: 100%
@@ -90,7 +91,7 @@ body{
 
 .footer{
     height: 200px;
-    background-color: yellowgreen;
+    background-color:black;
     bottom: 0px;
     /* position: fixed; */
     /* width: 1200px; */
@@ -121,7 +122,22 @@ body{
     text-align: center;
     background-color: rgb(255, 177, 148);
 }
-
+.col-6{
+    width: 49.3%;
+    height: 172px;
+    float:left;
+    text-align: left;
+    background-color: white;
+    margin: 0.1cm;
+}
+.col-7{
+        width: 49.3%;
+        height: 172px;
+        float:right;
+        text-align: center;
+        background-color: white;
+        margin: 0.1cm;
+}
 .service-content{
     padding: 0.5em 0;
 }
@@ -132,7 +148,8 @@ body{
 }
 
 .service-text.memebers{
-    font-style: italic; 
+    font-style: italic;
+    float: left; 
 }
 
 .section-news > div:first-child{
