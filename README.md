@@ -1,1 +1,3 @@
 # grupo-130
+Creacion del Header por medio de funciones que permitan la creacion de un listado tipo menu y el titulo de la pagina web, ademas del anexo de los link asosciados con las seccion de la pagina
+Creacion del Footer de la pagina por medio de funciones que permitan crear el bloque separado de la informacion de la pagina y la informacion del equipo desarrollador, ademas de la direccion web del repositorio en donde se guarda el trabajo
