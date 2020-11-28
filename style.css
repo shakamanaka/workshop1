@@ -31,14 +31,14 @@ body{
 .container-logo{
     width: 100%;
     height: inherit;
-    background-color: rgb(240, 23, 23);
+    background-color: rgb(139, 148, 148);
     text-align: center;
 }
 
 .site-title{
     margin: 0;
     padding: 0.9em 0;
-    color: rgb(2, 26, 61);  
+    color: white;  
 }
 
 .container-imagen{
@@ -123,13 +123,21 @@ body{
     background-color: rgb(255, 177, 148);
 }
 .col-6{
-    width: 100%;
+    width: 49.3%;
     height: 172px;
+    float:left;
     text-align: left;
     background-color: white;
     margin: 0.1cm;
 }
-
+.col-7{
+        width: 49.3%;
+        height: 172px;
+        float:right;
+        text-align: center;
+        background-color: white;
+        margin: 0.1cm;
+}
 .service-content{
     padding: 0.5em 0;
 }
@@ -222,7 +230,7 @@ hr{
 .main-menu__link{
     text-decoration: none;
     font-size: 1em;
-    color: #1e097a;
+    color: #3e3e3e;
 }
 
 .main-menu__link:hover{
